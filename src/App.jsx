@@ -5,6 +5,7 @@ import Sep26 from './components/Sep26';
 import Twoway_binding from './components/Twoway_binding';
 import Sep27 from './components/Sep27';
 import Sep28 from './components/Sep28';
+import Sep30 from './components/Sep30';
 
 const App = () => {
   // props example
@@ -48,7 +49,8 @@ const App = () => {
       {/* <Twoway_binding /> */}
       {/* <Sep27 />
       <Sep28/> */}
-      <Sep28 products={products} />
+      {/* <Sep28 products={products} /> */}
+      <Sep30/>
     </>
   );
 };
