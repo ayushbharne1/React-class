@@ -23,7 +23,7 @@ const Sep24 = () => {
         <div>
             <h1>App.jsx</h1>
 
-            {/* Calling infoo() function directly which returns a JSX element */}
+            {/* Calling infoo() function directly which returns a JSX element  */}
             <h2>{infoo()}</h2>
 
             {/* Button to call the info() function when clicked */}

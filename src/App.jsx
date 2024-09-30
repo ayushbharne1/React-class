@@ -4,8 +4,15 @@ import Sep25 from './components/Sep25';
 import Sep26 from './components/Sep26';
 import Twoway_binding from './components/Twoway_binding';
 import Sep27 from './components/Sep27';
+import Sep28 from './components/Sep28';
 
 const App = () => {
+  // props example
+  const products = [
+    { id: 1, name: 'Laptop', price: 1200 },
+    { id: 2, name: 'Phone', price: 800 },
+    { id: 3, name: 'Tablet', price: 600 }
+  ];
   // Array of user objects with name and age
   let user = [
     {
@@ -39,7 +46,9 @@ const App = () => {
       {/* <Sep25 /> */}
       {/* <Sep26 /> */}
       {/* <Twoway_binding /> */}
-      {/* <Sep27 /> */}
+      {/* <Sep27 />
+      <Sep28/> */}
+      <Sep28 products={products} />
     </>
   );
 };

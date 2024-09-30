@@ -34,7 +34,7 @@ const Sep27 = () => {
                 {/* Displays error message if username length is less than 5 */}
                 {error && (
                     <p>Length must be greater than 5</p>
-                )}
+                )}+
                 <br />
 
                 {/* Radio button for "others" gender */}
